@@ -7,13 +7,11 @@
 DeepImmune is an AI predictor that employs drug-induced transcriptomic changes to identify drugs that synergize with immune check blockade (ICB) and prioritize them for clinical trials.
 The parameters of DeepImmune are trained on 40,000 patients tumors. It uses transfer learning to predict response to ICB. Then it implement a pertubation model to estimate effect of drugs on ICB response. 
 
-The pytorch package is based on [tutorials](https://cs230-stanford.github.io/project-starter-code.html).
-
 Note: all scripts must be run in folder `pytorch/vision`.
 
 ## Requirements
 
-We recommend using python3 and a virtual env. See instructions [here](https://cs230-stanford.github.io/project-starter-code.html).
+We recommend using python3 and a virtual env. 
 
 ```
 virtualenv -p python3 .env
